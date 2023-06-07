@@ -6,6 +6,8 @@ import Model3Section from '../components/Model3Section.astro';
 import ModelYSection from '../components/ModelYSection.astro';
 import ModelSSection from '../components/ModelSSection.astro';
 import ModelXSection from '../components/ModelXSection.astro';
+import Accessories from "../components/Accessories.astro";
+import PowerWall from "../components/PowerWall.astro";
 ---
 
 <Layout title="Tesla - El coche de tus sueños">
@@ -27,7 +29,10 @@ import ModelXSection from '../components/ModelXSection.astro';
 			<ModelXSection/>
 		</div>
 		<div class="snap-center">
-			<HeroSection/>
+			<PowerWall />
+		</div>
+		<div class="snap-center">
+			<Accessories />
 		</div>
 	</main>
 </Layout>
